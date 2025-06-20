@@ -1,0 +1,36 @@
+.about {
+  padding: 4rem;
+  text-align: center;
+  background: var(--card-background);
+  max-width: 900px;
+  margin: 4rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px var(--shadow-color);
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px var(--shadow-color);
+  border: 5px solid white;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-text h2 {
+  text-align: left;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}

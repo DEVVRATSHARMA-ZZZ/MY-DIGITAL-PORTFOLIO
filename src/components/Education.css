@@ -1,0 +1,30 @@
+.education {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: var(--background-color);
+}
+
+.education-item {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 700px;
+  background: var(--card-background);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px var(--shadow-color);
+  transition: all 0.3s ease;
+}
+
+.education-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px var(--shadow-color);
+}
+
+.education-item h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.education-item p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+} 
