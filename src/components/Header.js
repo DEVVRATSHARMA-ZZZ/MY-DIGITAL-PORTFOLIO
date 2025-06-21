@@ -14,7 +14,11 @@ const Header = () => {
 
   return (
     <header className="header">
-      <button className="menu-button" onClick={toggleMenu} aria-label="Toggle menu">
+      <button 
+        className={`menu-button ${isMenuOpen ? 'active' : ''}`} 
+        onClick={toggleMenu} 
+        aria-label="Toggle menu"
+      >
         <span></span>
         <span></span>
         <span></span>
